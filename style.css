@@ -207,7 +207,7 @@ header {
 .t--content p {
   color: #efefef;
   font-size: 80px;
-  font-family: Maven Pro;
+  font-family: "Maven Pro";
   font-weight: 700;
   width: 80%;
 }
@@ -215,7 +215,7 @@ header {
 .t--content > p span {
   color: #efefef;
   font-size: 80px;
-  font-family: Cormorant Garamond;
+  font-family: "Cormorant Garamond";
   font-weight: lighter;
   word-wrap: break-word;
 }
@@ -233,7 +233,7 @@ header {
 .t--content > div button {
   color: #efefef;
   font-size: 18px;
-  font-family: Inter;
+  font-family: "Inter";
   font-weight: 500;
   word-wrap: break-word;
   background: none;
@@ -276,7 +276,7 @@ header {
 .card > div .paragraph {
   color: #3d3d3d;
   font-size: 36px;
-  font-family: Maven Pro;
+  font-family: "Maven Pro";
   font-weight: 500;
   word-wrap: break-word;
 }
@@ -284,7 +284,7 @@ header {
 .card > div p span {
   color: #3d3d3d;
   font-size: 36px;
-  font-family: Cormorant Garamond;
+  font-family: "Cormorant Garamond";
   font-weight: 300;
   word-wrap: break-word;
 }
@@ -293,7 +293,7 @@ header {
   width: 367px;
   color: #3d3d3d;
   font-size: 16px;
-  font-family: Maven Pro;
+  font-family: "Maven Pro";
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -388,13 +388,13 @@ header {
   color: #3d3d3d;
   font-weight: 600;
   font-size: 64px;
-  font-family: Poppins;
+  font-family: "Poppins";
   margin: 3rem 0 9rem 0;
 }
 
 .textOnly p span {
   font-size: 64px;
-  font-family: Cormorant Garamond;
+  font-family: "Cormorant Garamond";
   font-weight: 700;
 }
 
@@ -411,14 +411,14 @@ header {
   cursor: pointer;
   padding-inline: 44px;
   border-radius: 30px;
-  border: 1px #3d3d3d solid;
+  border: 1px solid #3d3d3d;
   justify-content: center;
   align-items: center;
   gap: 10px;
   display: inline-flex;
   color: #3d3d3d;
   font-size: 18px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-weight: 500;
   word-wrap: break-word;
 }
@@ -446,7 +446,7 @@ header {
 .heroSection .heading > div {
   text-transform: uppercase;
   gap: 32px;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -578,7 +578,7 @@ header {
   background: #9462ff;
   margin: 4px;
   color: #efefef;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -587,7 +587,7 @@ header {
 
 .heroSection .btn-wrapper p {
   color: #888;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 18px;
   font-weight: 500;
 }
@@ -674,7 +674,7 @@ header {
   text-align: center;
   color: #3d3d3d;
   font-size: 64px;
-  font-family: Inter;
+  font-family: "Inter";
   font-weight: 500;
   word-wrap: break-word;
   margin-bottom: 208px;
@@ -683,7 +683,7 @@ header {
 .talentHead p span {
   color: #3d3d3d;
   font-size: 44px;
-  font-family: Cormorant Garamond;
+  font-family: "Cormorant Garamond";
   font-weight: 500;
 }
 
@@ -693,49 +693,28 @@ header {
   margin-bottom: 282px;
 }
 
-.talentImageCard .card {
+.container {
   width: 354px;
   height: 506px;
   position: relative;
-  background: #45192f;
   border-radius: 10px;
   overflow: hidden;
+}
+
+.talentImageCard .card {
+  background: #45192f;
 }
 
 .talentImageCard .cardTwo {
-  width: 354px;
-  height: 506px;
-  position: relative;
   background: #fa826f;
-  border-radius: 10px;
-  overflow: hidden;
 }
 
-.talentImageCard .cardThree {
-  width: 354px;
-  height: 506px;
-  position: relative;
+:is(.talentImageCard .cardFive, .talentImageCard .cardThree) {
   background: #f1ff43;
-  border-radius: 10px;
-  overflow: hidden;
 }
 
 .talentImageCard .cardFour {
-  width: 354px;
-  height: 506px;
-  position: relative;
   background: #7c30f7;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.talentImageCard .cardFive {
-  width: 354px;
-  height: 506px;
-  position: relative;
-  background: #f1ff43;
-  border-radius: 10px;
-  overflow: hidden;
 }
 
 .talentImageCard .card .innerCardOne {
@@ -744,7 +723,7 @@ header {
   position: absolute;
   color: #efefef;
   font-size: 40px;
-  font-family: Cormorant SC;
+  font-family: "Cormorant SC";
   font-weight: 600;
   word-wrap: break-word;
 }
@@ -756,7 +735,7 @@ header {
   position: absolute;
   color: #3d3d3d;
   font-size: 40px;
-  font-family: Cormorant SC;
+  font-family: "Cormorant SC";
   font-weight: 600;
   word-wrap: break-word;
 }
@@ -768,7 +747,7 @@ header {
   position: absolute;
   color: #3d3d3d;
   font-size: 40px;
-  font-family: Cormorant SC;
+  font-family: "Cormorant SC";
   font-weight: 600;
   word-wrap: break-word;
 }
@@ -779,7 +758,7 @@ header {
   position: absolute;
   color: #efefef;
   font-size: 40px;
-  font-family: Cormorant SC;
+  font-family: "Cormorant SC";
   font-weight: 600;
   word-wrap: break-word;
 }
@@ -791,7 +770,7 @@ header {
   position: absolute;
   color: #3d3d3d;
   font-size: 40px;
-  font-family: Cormorant SC;
+  font-family: "Cormorant SC";
   font-weight: 600;
   word-wrap: break-word;
 }
@@ -840,4 +819,85 @@ header {
   left: 0;
   top: 173px;
   position: absolute;
+}
+
+/* farmer section */
+.framer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 8rem;
+  margin: 4rem 0;
+  gap: 15px;
+}
+
+.framer .text {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(128, 128, 128, 0.374);
+  padding: 4rem;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.framer .text p:first-child {
+  font-size: 30px;
+  font-family: "Maven Pro";
+  font-weight: 700;
+  width: 85%;
+}
+
+.framer .text p:first-child span {
+  font-size: 30px;
+  font-family: "Cormorant Garamond";
+  font-weight: lighter;
+  word-wrap: break-word;
+}
+
+.framer .text p:nth-child(2) {
+  font-size: 18px;
+  width: 85%;
+}
+
+.framer .text button {
+  border-radius: 50px;
+  padding-inline: 30px;
+  font-size: 12px;
+  color: #efefef;
+  background: #7c30f7;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.framer > div:nth-child(2) {
+  background: blue;
+  padding: 10rem;
+  color: #fff;
+  flex-direction: column;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.framer > div:nth-child(2) .img-wrapper {
+  margin: 6rem 0 -80px -80px;
+}
+
+.framer > div:nth-child(2) p {
+font-size: 35px;
+}
+
+.framer > div:nth-child(2) .img-wrapper img {
+  width: 75px;
+  margin-left: -12px;
 }
